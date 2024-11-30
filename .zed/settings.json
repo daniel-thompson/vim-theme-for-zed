@@ -1,0 +1,4 @@
+{
+  // We'd like to be able to optimize the theme JSON for (vertical) readability
+  "format_on_save": "off"
+}
