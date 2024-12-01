@@ -296,7 +296,7 @@
             "font_weight": null
           },
           "punctuation.bracket": {
-            "color": "#4d4f52ff",
+            "color": "#000000ff",
             "font_style": null,
             "font_weight": null
           },
@@ -321,7 +321,7 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#7c7e86ff",
+            "color": "#5555ccff",
             "font_style": null,
             "font_weight": null
           },
@@ -361,12 +361,12 @@
             "font_weight": null
           },
           "variable": {
-            "color": "#242529ff",
+            "color": "#000000ff",
             "font_style": null,
             "font_weight": null
           },
           "variable.special": {
-            "color": "#ad6e25ff",
+            "color": "#555555ff",
             "font_style": null,
             "font_weight": null
           },
@@ -667,7 +667,7 @@
             "font_weight": null
           },
           "punctuation.bracket": {
-            "color": "#179299",
+            "color": "#000000ff",
             "font_style": null,
             "font_weight": null
           },
@@ -697,7 +697,7 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#ea76cb",
+            "color": "#5555ccff",
             "font_style": null,
             "font_weight": null
           },
@@ -747,7 +747,7 @@
             "font_weight": null
           },
           "variable": {
-            "color": "#4c4f69",
+            "color": "#000000ff",
             "font_style": null,
             "font_weight": null
           },
@@ -762,8 +762,8 @@
             "font_weight": null
           },
           "variable.special": {
-            "color": "#823556",
-            "font_style": "italic",
+            "color": "#555555ff",
+            "font_style": null,
             "font_weight": null
           },
           "variant": {
@@ -1067,9 +1067,9 @@
             "font_weight": 700
           },
           "punctuation.bracket": {
-            "color": "#aaaa00ff",
+            "color": "#000000ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "punctuation.delimiter": {
             "color": "#aaaa00ff",
@@ -1092,9 +1092,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#aaaa00ff",
+            "color": "#5555ccff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#aaaa00ff",
@@ -1132,14 +1132,14 @@
             "font_weight": null
           },
           "variable": {
-            "color": "#aaaa00ff",
+            "color": "#000000ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "variable.special": {
-            "color": "#aaaa00ff",
+            "color": "#555555ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "variant": {
             "color": "#aaaa00ff",
@@ -1438,9 +1438,9 @@
             "font_weight": 700
           },
           "punctuation.bracket": {
-            "color": "#aaaa00ff",
+            "color": "#000000ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "punctuation.delimiter": {
             "color": "#aaaa00ff",
@@ -1468,9 +1468,9 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#aaaa00ff",
+            "color": "#5555ccff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.regex": {
             "color": "#aaaa00ff",
@@ -1518,9 +1518,9 @@
             "font_weight": null
           },
           "variable": {
-            "color": "#aaaa00ff",
+            "color": "#000000ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "variable.member": {
             "color": "#4c4f69",
@@ -1533,9 +1533,9 @@
             "font_weight": null
           },
           "variable.special": {
-            "color": "#aaaa00ff",
+            "color": "#555555ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "variant": {
             "color": "#aaaa00ff",

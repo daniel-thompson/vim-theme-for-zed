@@ -67,12 +67,12 @@
       "property":                { "color": "#555500ff", "font_style": null, "font_weight": null },
 
       //"punctuation":             { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
-      //"punctuation.bracket":     { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
+      "punctuation.bracket":     { "color": "#000000ff", "font_style": null, "font_weight": null },
       //"punctuation.delimiter":   { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
       //"punctuation.list_marker": { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
       //"punctuation.special":     { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
       "string":                  { "color": "#ff00ffff", "font_style": null, "font_weight": null },
-      //"string.escape":           { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
+      "string.escape":           { "color": "#5555ccff", "font_style": null, "font_weight": null },
       //"string.regex":            { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
       //"string.special":          { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
       //"string.special.symbol":   { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
@@ -80,8 +80,8 @@
       "text.literal":            { "color": "#5500aaff", "font_style": null, "font_weight": null },
       "title":                   { "color": "#ff00ffff", "font_style": null, "font_weight": 700 },
       "type":                    { "color": "#008855ff", "font_style": null, "font_weight": null },
-      //"variable":                { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
-      //"variable.special":        { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
+      "variable":                { "color": "#000000ff", "font_style": null, "font_weight": null },
+      "variable.special":        { "color": "#555555ff", "font_style": null, "font_weight": null },
       //"variant":                 { "color": "#aaaa00ff", "font_style": null, "font_weight": 700 },
 
       // "type" appears twice so that we can un-comment the debug yellows without causing
