@@ -49,6 +49,7 @@ def main():
         ( "one-light", "vim-light" ),
         ( "adwaita-pastel-light", "vim-adwaita-light" ),
         ( "one-light", "vim-debug-light" ),
+        ( "adwaita-pastel-light", "vim-adwebug-light" ),
     ):
         with open(template + ".json") as f:
             template = json.load(f)
