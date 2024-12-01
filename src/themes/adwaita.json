@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: LGPL-2.1
 // From https://github.com/Benjamin-Davies/zed-theme-adwaita/blob/a0119a81ca6028e8e87ac4299c3e38bd4291b105/themes/adwaita.json
+// Changes from the upstream version are commented inline below.
 {
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
   "name": "Adwaita Pastel",
@@ -438,9 +439,20 @@
         "title_bar.background": "#ffffff",
         "title_bar.inactive_background": "#fafafa",
         "toolbar.background": "#ffffff",
-        "tab_bar.background": "#ffffff",
-        "tab.inactive_background": "#ffffff",
-        "tab.active_background": "#ebebeb",
+
+        // The original values are commented out because, although they match
+        // Adwaita, they graphic design of the Zed application makes them
+        // confusing. These changes mean the pane colour flows into the tab
+        // chooser and is easier to visually understand. As it happens these
+        // changes also bring the behaviour closer to that of the GTK3 gvim
+        // port which is a nice bonus!
+        //"tab_bar.background": "#ffffff",
+        //"tab.inactive_background": "#ffffff",
+        //"tab.active_background": "#ebebeb",
+        "tab_bar.background": "#ebebeb",
+        "tab.inactive_background": "#ebebeb",
+        "tab.active_background": "#ffffff",
+
         "search.match_background": "#99c1f166",
         "panel.background": "#fafafa",
         "panel.focused_border": null,
