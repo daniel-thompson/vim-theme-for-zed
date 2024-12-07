@@ -1,6 +1,6 @@
 SUBTHEMES = src/vim-adwaita-light.jsonc src/vim-debug-light.jsonc src/vim-adwebug-light.jsonc
 build : $(SUBTHEMES)
-	(cd src; python build.py)
+	(cd src; python3 build.py)
 
 src/vim-adwaita-light.jsonc : src/vim-light.jsonc
 	sed -e 's:Vim Light:Vim Adwaita Light:' < $< > $@
