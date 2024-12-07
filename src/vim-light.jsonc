@@ -64,7 +64,7 @@
       // between->_this_ appearing in black (in C) and {"_this_": "is bold"} and
       // colourful in JSON. The best compromise I could find was to use "bright
       // black" from the main palette.
-      "property":                { "color": "#555500ff", "font_style": null, "font_weight": null },
+      "property":                { "color": "#555555ff", "font_style": null, "font_weight": null },
 
       //"punctuation":             { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
       "punctuation.bracket":     { "color": "#000000ff", "font_style": null, "font_weight": null },
