@@ -301,7 +301,7 @@
             "font_weight": null
           },
           "punctuation.delimiter": {
-            "color": "#4d4f52ff",
+            "color": "#5555aaff",
             "font_style": null,
             "font_weight": null
           },
@@ -311,7 +311,7 @@
             "font_weight": null
           },
           "punctuation.special": {
-            "color": "#b92b46ff",
+            "color": "#5555aaff",
             "font_style": null,
             "font_weight": null
           },
@@ -672,7 +672,7 @@
             "font_weight": null
           },
           "punctuation.delimiter": {
-            "color": "#7c7f93",
+            "color": "#5555aaff",
             "font_style": null,
             "font_weight": null
           },
@@ -682,7 +682,7 @@
             "font_weight": null
           },
           "punctuation.special": {
-            "color": "#179299",
+            "color": "#5555aaff",
             "font_style": null,
             "font_weight": null
           },
@@ -1072,9 +1072,9 @@
             "font_weight": null
           },
           "punctuation.delimiter": {
-            "color": "#cccc00ff",
+            "color": "#5555aaff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "punctuation.list_marker": {
             "color": "#cccc00ff",
@@ -1082,9 +1082,9 @@
             "font_weight": 700
           },
           "punctuation.special": {
-            "color": "#cccc00ff",
+            "color": "#5555aaff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string": {
             "color": "#ff00ffff",
@@ -1443,9 +1443,9 @@
             "font_weight": null
           },
           "punctuation.delimiter": {
-            "color": "#cccc00ff",
+            "color": "#5555aaff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "punctuation.list_marker": {
             "color": "#cccc00ff",
@@ -1453,9 +1453,9 @@
             "font_weight": 700
           },
           "punctuation.special": {
-            "color": "#cccc00ff",
+            "color": "#5555aaff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "punctuation.special.symbol": {
             "color": "#d20f39",

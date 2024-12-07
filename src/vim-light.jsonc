@@ -68,9 +68,9 @@
 
       //"punctuation":             { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
       "punctuation.bracket":     { "color": "#000000ff", "font_style": null, "font_weight": null },
-      //"punctuation.delimiter":   { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
+      "punctuation.delimiter":   { "color": "#5555aaff", "font_style": null, "font_weight": null },
       //"punctuation.list_marker": { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
-      //"punctuation.special":     { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
+      "punctuation.special":     { "color": "#5555aaff", "font_style": null, "font_weight": null },
       "string":                  { "color": "#ff00ffff", "font_style": null, "font_weight": null },
       "string.escape":           { "color": "#5555ccff", "font_style": null, "font_weight": null },
       //"string.regex":            { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
