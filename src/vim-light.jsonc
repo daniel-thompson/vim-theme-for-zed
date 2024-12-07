@@ -44,7 +44,7 @@
       //"comment.doc":             { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
       "constant":                { "color": "#000000ff", "font_style": null, "font_weight": null },
       //"constructor":             { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
-      //"embedded":                { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
+      "embedded":                { "color": "#5555aaff", "font_style": null, "font_weight": null },
       "emphasis":                { "color": "#000000ff", "font_style": "italic", "font_weight": null },
       "emphasis.strong":         { "color": "#000000ff", "font_style": null, "font_weight": 700 },
       //"enum":                    { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
