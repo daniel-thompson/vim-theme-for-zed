@@ -4,12 +4,19 @@ Vim theme for Zed
 The Vim theme adapts the default Zed theme with syntax colouring inspired by
 the gvim defaults.
 
+*Vim is old-school! Black turns off the pixel completely and white is not an
+alarmingly subtle shade of gray.*
+
 The differences between tree-sitter and the vim syntax highlighter mean the
 code cannot look exactly the same but it's certainly enough to make gvim users
 much more comfortable.
 
-*Where black turns off the pixel and white is not an alarmingly subtle
-shade of gray.*
+Since they cannot be exact anyway this theme does also take a few liberties.
+In particular some of the most exotic (but still potentially useful)
+tree-sitter styles that would appear black in gvim are mapped instead to
+bright black. The difference between black and bright black is pretty subtle
+on most monitors so this almost subconcious nudge doesn't stop the output
+feeling like vim (to my eyes at least, your opinion may differ).
 
 Three themes are currently provided:
 
