@@ -1,0 +1,6 @@
+[
+  {
+    "label": "Build and install (for flatpak)",
+    "command": "make && cp themes/vim.json ${HOME}/.var/app/dev.zed.Zed/config/zed/themes/vim.json"
+  }
+]
