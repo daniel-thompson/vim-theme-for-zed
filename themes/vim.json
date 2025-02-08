@@ -306,7 +306,7 @@
             "font_weight": null
           },
           "punctuation.list_marker": {
-            "color": "#d3604fff",
+            "color": "#008888ff",
             "font_style": null,
             "font_weight": null
           },
@@ -326,7 +326,7 @@
             "font_weight": null
           },
           "string.regex": {
-            "color": "#ad6e26ff",
+            "color": "#5555ccff",
             "font_style": null,
             "font_weight": null
           },
@@ -677,7 +677,7 @@
             "font_weight": null
           },
           "punctuation.list_marker": {
-            "color": "#179299",
+            "color": "#008888ff",
             "font_style": null,
             "font_weight": null
           },
@@ -702,7 +702,7 @@
             "font_weight": null
           },
           "string.regex": {
-            "color": "#ea76cb",
+            "color": "#5555ccff",
             "font_style": null,
             "font_weight": null
           },
@@ -1082,9 +1082,9 @@
             "font_weight": null
           },
           "punctuation.list_marker": {
-            "color": "#cccc00ff",
+            "color": "#008888ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "punctuation.special": {
             "color": "#5555aaff",
@@ -1102,9 +1102,9 @@
             "font_weight": null
           },
           "string.regex": {
-            "color": "#cccc00ff",
+            "color": "#5555ccff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.special": {
             "color": "#cccc00ff",
@@ -1453,9 +1453,9 @@
             "font_weight": null
           },
           "punctuation.list_marker": {
-            "color": "#cccc00ff",
+            "color": "#008888ff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "punctuation.special": {
             "color": "#5555aaff",
@@ -1478,9 +1478,9 @@
             "font_weight": null
           },
           "string.regex": {
-            "color": "#cccc00ff",
+            "color": "#5555ccff",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": null
           },
           "string.special": {
             "color": "#cccc00ff",
