@@ -358,7 +358,7 @@
           "type": {
             "color": "#008855ff",
             "font_style": null,
-            "font_weight": null
+            "font_weight": 700
           },
           "variable": {
             "color": "#000000ff",
@@ -372,6 +372,21 @@
           },
           "variant": {
             "color": "#5b79e3ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.interface": {
+            "color": "#008855ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.super": {
+            "color": "#008855ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#000000ff",
             "font_style": null,
             "font_weight": null
           }
@@ -734,15 +749,15 @@
           "type": {
             "color": "#008855ff",
             "font_style": null,
-            "font_weight": null
+            "font_weight": 700
           },
           "type.interface": {
-            "color": "#df8e1d",
+            "color": "#008855ff",
             "font_style": null,
             "font_weight": null
           },
           "type.super": {
-            "color": "#df8e1d",
+            "color": "#008855ff",
             "font_style": null,
             "font_weight": null
           },
@@ -757,8 +772,8 @@
             "font_weight": null
           },
           "variable.parameter": {
-            "color": "#fe640b",
-            "font_style": "italic",
+            "color": "#000000ff",
+            "font_style": null,
             "font_weight": null
           },
           "variable.special": {
@@ -1048,7 +1063,7 @@
           },
           "predictive": {
             "color": "#cccc00ff",
-            "font_style": "italic",
+            "font_style": null,
             "font_weight": 700
           },
           "preproc": {
@@ -1134,7 +1149,7 @@
           "type": {
             "color": "#008855ff",
             "font_style": null,
-            "font_weight": null
+            "font_weight": 700
           },
           "variable": {
             "color": "#000000ff",
@@ -1150,6 +1165,26 @@
             "color": "#cccc00ff",
             "font_style": null,
             "font_weight": 700
+          },
+          "type.interface": {
+            "color": "#008855ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "type.super": {
+            "color": "#008855ff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.member": {
+            "color": "#cccc00ff",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "variable.parameter": {
+            "color": "#000000ff",
+            "font_style": null,
+            "font_weight": null
           }
         }
       }
@@ -1419,7 +1454,7 @@
           },
           "predictive": {
             "color": "#cccc00ff",
-            "font_style": "italic",
+            "font_style": null,
             "font_weight": 700
           },
           "predoc": {
@@ -1510,15 +1545,15 @@
           "type": {
             "color": "#008855ff",
             "font_style": null,
-            "font_weight": null
+            "font_weight": 700
           },
           "type.interface": {
-            "color": "#df8e1d",
+            "color": "#008855ff",
             "font_style": null,
             "font_weight": null
           },
           "type.super": {
-            "color": "#df8e1d",
+            "color": "#008855ff",
             "font_style": null,
             "font_weight": null
           },
@@ -1528,13 +1563,13 @@
             "font_weight": null
           },
           "variable.member": {
-            "color": "#4c4f69",
+            "color": "#cccc00ff",
             "font_style": null,
-            "font_weight": null
+            "font_weight": 700
           },
           "variable.parameter": {
-            "color": "#fe640b",
-            "font_style": "italic",
+            "color": "#000000ff",
+            "font_style": null,
             "font_weight": null
           },
           "variable.special": {

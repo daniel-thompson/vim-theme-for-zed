@@ -56,7 +56,7 @@
       "link_uri":                { "color": "#5555ffff", "font_style": null, "font_weight": null },
       "number":                  { "color": "#ff00ffff", "font_style": null, "font_weight": null },
       "operator":                { "color": "#555555ff", "font_style": null, "font_weight": null },
-      //"predictive":              { "color": "#cccc00ff", "font_style": "italic", "font_weight": 700 },
+      //"predictive":              { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
       //"preproc":                 { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
       //"primary":                 { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
 
@@ -79,15 +79,19 @@
       "tag":                     { "color": "#555555ff", "font_style": null, "font_weight": null },
       "text.literal":            { "color": "#5500aaff", "font_style": null, "font_weight": null },
       "title":                   { "color": "#ff00ffff", "font_style": null, "font_weight": 700 },
-      "type":                    { "color": "#008855ff", "font_style": null, "font_weight": null },
+      "type":                    { "color": "#008855ff", "font_style": null, "font_weight": 700 },
+      "type.interface":          { "color": "#008855ff", "font_style": null, "font_weight": null },
+      "type.super":              { "color": "#008855ff", "font_style": null, "font_weight": null },
       "variable":                { "color": "#000000ff", "font_style": null, "font_weight": null },
+      //"variable.member":         { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
+      "variable.parameter":      { "color": "#000000ff", "font_style": null, "font_weight": null },
       "variable.special":        { "color": "#555555ff", "font_style": null, "font_weight": null },
       //"variant":                 { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
 
       // "type" appears twice so that we can un-comment the debug yellows without causing
       // problems because the final element has no delimiter (build.py just strips
       // comments, it is not a real jsonc decoder).
-      "type":                    { "color": "#008855ff", "font_style": null, "font_weight": null }
+      "type":                    { "color": "#008855ff", "font_style": null, "font_weight": 700 }
     }
   }
 }

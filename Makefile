@@ -14,5 +14,13 @@ src/vim-adwebug-light.jsonc : src/vim-light.jsonc
 install : build
 	cp themes/vim.json $$HOME/.var/app/dev.zed.Zed/config/zed/themes/vim.json
 
+watch : install
+	inotifywait -mqe close_write src/vim-*.json* src/themes/* | \
+	while read; \
+	do \
+	    echo "> make install"; \
+	    make install; \
+	done
+
 clean :
 	$(RM) src/*.json $(SUBTHEMES)
