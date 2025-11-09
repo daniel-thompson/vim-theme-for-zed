@@ -41,8 +41,8 @@ def main():
     extract_themes_from("adwaita.json")
     theme = extract_themes_from("one.json")
 
-    theme["name"] = "Vim"
-    theme["author"] = "Daniel Thompson, Benjamin Davies and Zed Industries"
+    theme["name"] = "Vim Default"
+    theme["author"] = "Daniel Thompson, Zed Industries and Benjamin Davies"
     theme["themes"] = []
 
     for template, overlay in (
