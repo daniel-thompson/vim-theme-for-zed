@@ -47,6 +47,14 @@ details):
 License
 -------
 
+This theme combines contributions under MIT and LGPL-2.1 and, to qualify for
+inclusion in the Zed extensions repository must be licensed under a narrow
+set of licenses (Apache-2.0, BSD-3-Clause, GPL-3.0-only, GPL-3.0-or-later or
+MIT). Given the licenses of the includes files, the work as a whole is made
+available on a GPL-3.0-or-later license.
+
+In more detail:
+
 This program is free software: you can redistribute it and/or modify it
 under the terms of the [GNU General Public License](LICENSE.md) as
 published by the Free Software Foundation, either version 3 of the
