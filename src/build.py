@@ -46,10 +46,10 @@ def main():
     theme["themes"] = []
 
     for template, overlay in (
+        ( "one-dark", "vim-dark" ),
         ( "one-light", "vim-light" ),
+        ( "adwaita-pastel-dark", "vim-adwaita-dark" ),
         ( "adwaita-pastel-light", "vim-adwaita-light" ),
-        ( "one-light", "vim-debug-light" ),
-        ( "adwaita-pastel-light", "vim-adwebug-light" ),
     ):
         with open(template + ".json") as f:
             template = json.load(f)

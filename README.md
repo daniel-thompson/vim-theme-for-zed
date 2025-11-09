@@ -23,15 +23,11 @@ Three themes are currently provided:
 * _Vim Light_ is the recommended theme for most users. The widgets and Zed
   look and feel is based on the Zed default theme. Only the editor and
   terminal panes will look different.
-* _Vim Adwaita Light_ is a better cosmetic fit for modern GNOME desktops.
-* _Vim Debug Light_ is a good choice for people who want to improve this
-  theme!
-
-Regarding _Vim Debug Light_, currently there are tree-sitter categories where
-the Vim theme for Zed does not override the parent theme. That's because I
-haven't yet edited files that use these features. _Vim Debug Light_ sets these
-all to dull yellow and makes them bold. If you see anything yellow and bold
-using this theme please submit a bug report to the Issue Tracker.
+* _Vim Dark_ combines the default vim colour scheme for dark mode merged with
+  the Zed default theme.
+* _Vim Adwaita Light_ uses the same palette for the editor but Zed will be a
+  better cosmetic fit for modern GNOME desktops.
+* _Vim Adwaita Dark_ is a dark variant of the above.
 
 Credits
 -------
@@ -42,9 +38,11 @@ the colour scheme comes from the parent themes (see `src/build.py` for more
 details):
 
 * _Vim Light_ is derived from _One Light_ by Zed Industries
+* _Vim Dark_ is derived from _One Dark_ by Zed Industries
 * _Vim Adwaita Light_ is derived from _Adwaita Pastel Light_ by _Benjamin
   Davies_
-* _Vim Debug Light_ is derived from _One Light_ by Zed Industries
+* _Vim Adwaita Dark_ is derived from _Adwaita Pastel Dark_ by _Benjamin
+  Davies_
 
 License
 -------

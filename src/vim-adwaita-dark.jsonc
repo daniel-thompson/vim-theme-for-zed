@@ -1,13 +1,13 @@
 // Header comment
 {
-  "name": "Vim Dark",
+  "name": "Vim Adwaita Dark",
   "style": {
     // The dark theme is less opinionated than the light theme... it copies
     // the foreground and background from the template theme (but we need
     // to know what it is so we can match it)
-    "editor.foreground": "#acb2beff",
-    "editor.background": "#282c33ff",
-    "editor.gutter.background": "#282c33ff",
+    "editor.foreground": "#ffffffff",
+    "editor.background": "#1e1e1eff",
+    "editor.gutter.background": "#1e1e1eff",
 
     // Inherit the terminal theme from the parent theme
 
@@ -71,14 +71,14 @@
       "variable.special":        { "color": "#97979aff", "font_style": null, "font_weight": null },
 
       // These are shown with no highlight in vim
-      "constant":                { "color": "#acb2beff", "font_style": null, "font_weight": null },
-      "emphasis":                { "color": "#acb2beff", "font_style": "italic", "font_weight": null },
-      "emphasis.strong":         { "color": "#acb2beff", "font_style": null, "font_weight": 700 },
-      "function":                { "color": "#acb2beff", "font_style": null, "font_weight": null },
-      "punctuation":             { "color": "#acb2beff", "font_style": null, "font_weight": null },
-      "punctuation.bracket":     { "color": "#acb2beff", "font_style": null, "font_weight": null },
-      "variable":                { "color": "#acb2beff", "font_style": null, "font_weight": null },
-      "variable.parameter":      { "color": "#acb2beff", "font_style": null, "font_weight": null }
+      "constant":                { "color": "#ffffffff", "font_style": null, "font_weight": null },
+      "emphasis":                { "color": "#ffffffff", "font_style": "italic", "font_weight": null },
+      "emphasis.strong":         { "color": "#ffffffff", "font_style": null, "font_weight": 700 },
+      "function":                { "color": "#ffffffff", "font_style": null, "font_weight": null },
+      "punctuation":             { "color": "#ffffffff", "font_style": null, "font_weight": null },
+      "punctuation.bracket":     { "color": "#ffffffff", "font_style": null, "font_weight": null },
+      "variable":                { "color": "#ffffffff", "font_style": null, "font_weight": null },
+      "variable.parameter":      { "color": "#ffffffff", "font_style": null, "font_weight": null }
     }
   }
 }

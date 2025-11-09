@@ -2,7 +2,7 @@
 {
   "name": "Vim Light",
   "style": {
-    // Let's start by making white white and black black!
+    // Start by making white white and black black!
     "editor.background": "#ffffffff",
     "editor.foreground": "#000000ff",
     "editor.gutter.background": "#ffffffff",
@@ -38,60 +38,73 @@
     "terminal.ansi.dim_white": "#888888ff",
 
     "syntax": {
-      "attribute":               { "color": "#5500aaff", "font_style": null, "font_weight": null },
-      "boolean":                 { "color": "#ff00ffff", "font_style": null, "font_weight": null },
+      // Comment:     gui=NONE      guifg=Blue        #0000ffff
       "comment":                 { "color": "#0000ffff", "font_style": null, "font_weight": null },
-      "comment.doc":             { "color": "#5555aaff", "font_style": null, "font_weight": null },
-      "constant":                { "color": "#000000ff", "font_style": null, "font_weight": null },
-      //"constructor":             { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
-      "embedded":                { "color": "#5555aaff", "font_style": null, "font_weight": null },
-      "emphasis":                { "color": "#000000ff", "font_style": "italic", "font_weight": null },
-      "emphasis.strong":         { "color": "#000000ff", "font_style": null, "font_weight": 700 },
-      //"enum":                    { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
-      "function":                { "color": "#000000ff", "font_style": null, "font_weight": null },
-      //"hint":                    { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
-      "keyword":                 { "color": "#aa5555ff", "font_style": null, "font_weight": 700 },
-      "label":                   { "color": "#aa5555ff", "font_style": null, "font_weight": 700 },
-      "link_text":               { "color": "#5555ffff", "font_style": "underline", "font_weight": null },
-      "link_uri":                { "color": "#5555ffff", "font_style": null, "font_weight": null },
+      "hint":                    { "color": "#0000ffff", "font_style": null, "font_weight": null },
+
+      // Constant:	  gui=NONE      guifg=Magenta     #ff00ffff
+      "boolean":                 { "color": "#ff00ffff", "font_style": null, "font_weight": null },
       "number":                  { "color": "#ff00ffff", "font_style": null, "font_weight": null },
-      "operator":                { "color": "#555555ff", "font_style": null, "font_weight": null },
-      //"predictive":              { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
-      //"preproc":                 { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
-      //"primary":                 { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
+      "string":                  { "color": "#ff00ffff", "font_style": null, "font_weight": null },
+      "string.special.symbol":   { "color": "#ff00ffff", "font_style": null, "font_weight": null },
+      "title":                   { "color": "#ff00ffff", "font_style": null, "font_weight": 700 },
+
+      // Special:     gui=NONE      guifg=#6a5acd     #6a5acdff
+      "comment.doc":             { "color": "#6a5acdff", "font_style": null, "font_weight": null },
+      "embedded":                { "color": "#6a5acdff", "font_style": null, "font_weight": null },
+      "punctuation.delimiter":   { "color": "#6a5acdff", "font_style": null, "font_weight": null },
+      "punctuation.special":     { "color": "#6a5acdff", "font_style": null, "font_weight": null },
+      "string.escape":           { "color": "#6a5acdff", "font_style": null, "font_weight": null },
+      "string.regex":            { "color": "#6a5acdff", "font_style": null, "font_weight": null },
+      "string.special":          { "color": "#6a5acdff", "font_style": null, "font_weight": null },
+
+      // Identifier:  gui=NONE      guifg=DarkCyan    #008b8bff
+      "punctuation.list_marker": { "color": "#008b8bff", "font_style": null, "font_weight": null },
+
+      // Statement:	  gui=bold      guifg=Brown       #a52a2aff
+      "keyword":                 { "color": "#a52a2aff", "font_style": null, "font_weight": 700 },
+      "label":                   { "color": "#a52a2aff", "font_style": null, "font_weight": 700 },
+
+      // PreProc:	    gui=NONE      guifg=#6a0dad     #6a0dadff
+      "attribute":               { "color": "#6a0dadff", "font_style": null, "font_weight": null },
+      "preproc":                 { "color": "#6a0dadff", "font_style": null, "font_weight": null },
+      "text.literal":            { "color": "#6a0dadff", "font_style": null, "font_weight": null },
+
+      // Type:		    gui=bold      guifg=SeaGreen    #2e8b57ff
+      "constructor":             { "color": "#2e8b57ff", "font_style": null, "font_weight": 700 },
+      "enum":                    { "color": "#2e8b57ff", "font_style": null, "font_weight": 700 },
+      "type":                    { "color": "#2e8b57ff", "font_style": null, "font_weight": 700 },
+      "type.interface":          { "color": "#2e8b57ff", "font_style": null, "font_weight": 700 },
+      "type.super":              { "color": "#2e8b57ff", "font_style": null, "font_weight": 700 },
+      "variant":                 { "color": "#2e8b57ff", "font_style": null, "font_weight": 700 },
+
+      // Underlinned  gui=underline guifg=SlateBlue   #6a5acdff
+      "link_text":               { "color": "#6a5acdff", "font_style": "underline", "font_weight": null },
+      "link_uri":                { "color": "#6a5acdff", "font_style": null, "font_weight": null },
 
       // The property syntax element cannot match vim. Instead we must compromise
       // between->_this_ appearing in black (in C) and {"_this_": "is bold"} and
       // colourful in JSON. The best compromise I could find was to use "bright
       // black" from the main palette.
+      //
+      // The effect is very subtle so I also used it for several other amiguous
+      // (or unknown) cases.
+      "operator":                { "color": "#555555ff", "font_style": null, "font_weight": null },
+      "predictive":              { "color": "#555555ff", "font_style": null, "font_weight": null },
+      "primary":                 { "color": "#555555ff", "font_style": null, "font_weight": null },
       "property":                { "color": "#555555ff", "font_style": null, "font_weight": null },
-
-      //"punctuation":             { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
-      "punctuation.bracket":     { "color": "#000000ff", "font_style": null, "font_weight": null },
-      "punctuation.delimiter":   { "color": "#5555aaff", "font_style": null, "font_weight": null },
-      "punctuation.list_marker": { "color": "#008888ff", "font_style": null, "font_weight": null },
-      "punctuation.special":     { "color": "#5555aaff", "font_style": null, "font_weight": null },
-      "string":                  { "color": "#ff00ffff", "font_style": null, "font_weight": null },
-      "string.escape":           { "color": "#5555ccff", "font_style": null, "font_weight": null },
-      "string.regex":            { "color": "#5555ccff", "font_style": null, "font_weight": null },
-      "string.special":          { "color": "#5555ccff", "font_style": null, "font_weight": null },
-      "string.special.symbol":   { "color": "#ff00ffff", "font_style": null, "font_weight": null },
       "tag":                     { "color": "#555555ff", "font_style": null, "font_weight": null },
-      "text.literal":            { "color": "#5500aaff", "font_style": null, "font_weight": null },
-      "title":                   { "color": "#ff00ffff", "font_style": null, "font_weight": 700 },
-      "type":                    { "color": "#008855ff", "font_style": null, "font_weight": 700 },
-      "type.interface":          { "color": "#008855ff", "font_style": null, "font_weight": null },
-      "type.super":              { "color": "#008855ff", "font_style": null, "font_weight": null },
-      "variable":                { "color": "#000000ff", "font_style": null, "font_weight": null },
-      //"variable.member":         { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
-      "variable.parameter":      { "color": "#000000ff", "font_style": null, "font_weight": null },
       "variable.special":        { "color": "#555555ff", "font_style": null, "font_weight": null },
-      //"variant":                 { "color": "#cccc00ff", "font_style": null, "font_weight": 700 },
 
-      // "type" appears twice so that we can un-comment the debug yellows without causing
-      // problems because the final element has no delimiter (build.py just strips
-      // comments, it is not a real jsonc decoder).
-      "type":                    { "color": "#008855ff", "font_style": null, "font_weight": 700 }
+      // These are shown with no highlight in vim
+      "constant":                { "color": "#000000ff", "font_style": null, "font_weight": null },
+      "emphasis":                { "color": "#000000ff", "font_style": "italic", "font_weight": null },
+      "emphasis.strong":         { "color": "#000000ff", "font_style": null, "font_weight": 700 },
+      "function":                { "color": "#000000ff", "font_style": null, "font_weight": null },
+      "punctuation":             { "color": "#000000ff", "font_style": null, "font_weight": null },
+      "punctuation.bracket":     { "color": "#000000ff", "font_style": null, "font_weight": null },
+      "variable":                { "color": "#000000ff", "font_style": null, "font_weight": null },
+      "variable.parameter":      { "color": "#000000ff", "font_style": null, "font_weight": null }
     }
   }
 }
