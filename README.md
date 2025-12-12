@@ -7,6 +7,11 @@ the gvim defaults.
 *Vim is old-school! Black turns off the pixel completely and white is not an
 alarmingly subtle shade of gray.*
 
+<p>
+<img src="screenshots/vim-light.svg" alt="Vim Light" width="49%"/>
+<img src="screenshots/vim-dark.svg" alt="Vim Dark" width="49%"/>
+</p>
+
 The differences between tree-sitter and the vim syntax highlighter mean the
 code cannot look exactly the same but it's certainly enough to make gvim users
 much more comfortable.
